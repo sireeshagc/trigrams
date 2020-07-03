@@ -99,7 +99,7 @@ public class Util {
 			}catch (Exception e) {
 				System.out.println("Unable to generate the output file!" + e.getMessage());
 			}
-			System.out.println("File generated path: c:/" + fileName + ".txt");
+			System.out.println("File generated path: "+FILEPATH +"\\"+ fileName + ".txt");
 		}
 	}
 }
